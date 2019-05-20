@@ -6,5 +6,12 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'Example2';
+  title = 'Employee Details';
+  imagepath = 'http://www.pragimtech.com/Images/Logo.JPG';
+  firstname = 'Akshit';
+  lastname = 'Singh';
+  isDisable = false;
+  getFullName(){
+    return this.firstname +  ' ' + this.lastname;
+  }
 }
